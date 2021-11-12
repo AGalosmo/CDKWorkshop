@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/ec2-user/.nvm/versions/node/v16.11.1/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'aws-cdk'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v16.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData aws-cdk
+8 silly fetchNamedPackageData aws-cdk
+9 silly mapToRegistry name aws-cdk
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'aws-cdk',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'aws-cdk',
+12 silly mapToRegistry   name: 'aws-cdk',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag'
+12 silly mapToRegistry }
+13 silly mapToRegistry uri https://registry.npmjs.org/aws-cdk
+14 verbose request uri https://registry.npmjs.org/aws-cdk
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 7:39:00 AM
+17 verbose request id 30e40a194f22e202
+18 http request GET https://registry.npmjs.org/aws-cdk
+19 http 200 https://registry.npmjs.org/aws-cdk
+20 verbose headers {
+20 verbose headers   date: 'Tue, 26 Oct 2021 07:39:00 GMT',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'cf-ray': '6a4207408e1bfd4e-SYD',
+20 verbose headers   age: '91',
+20 verbose headers   'cache-control': 'public, max-age=300',
+20 verbose headers   etag: 'W/"39e3baac4fc9431c68fad9d4eeb6a5aa"',
+20 verbose headers   'last-modified': 'Fri, 22 Oct 2021 13:49:20 GMT',
+20 verbose headers   vary: 'accept-encoding, accept',
+20 verbose headers   'cf-cache-status': 'HIT',
+20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 verbose headers   'x-amz-replication-status': 'COMPLETED',
+20 verbose headers   server: 'cloudflare',
+20 verbose headers   'content-encoding': 'gzip'
+20 verbose headers }
+21 silly get cb [
+21 silly get   200,
+21 silly get   {
+21 silly get     date: 'Tue, 26 Oct 2021 07:39:00 GMT',
+21 silly get     'content-type': 'application/json',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     connection: 'keep-alive',
+21 silly get     'cf-ray': '6a4207408e1bfd4e-SYD',
+21 silly get     age: '91',
+21 silly get     'cache-control': 'public, max-age=300',
+21 silly get     etag: 'W/"39e3baac4fc9431c68fad9d4eeb6a5aa"',
+21 silly get     'last-modified': 'Fri, 22 Oct 2021 13:49:20 GMT',
+21 silly get     vary: 'accept-encoding, accept',
+21 silly get     'cf-cache-status': 'HIT',
+21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 silly get     'x-amz-replication-status': 'COMPLETED',
+21 silly get     server: 'cloudflare',
+21 silly get     'content-encoding': 'gzip'
+21 silly get   }
+21 silly get ]
+22 verbose get saving aws-cdk to /home/ec2-user/.npm/registry.npmjs.org/aws-cdk/.cache.json
+23 verbose correctMkdir /home/ec2-user/.npm correctMkdir not in flight; initializing
+24 verbose stack TypeError: cb.apply is not a function
+24 verbose stack     at /usr/lib/node_modules/npm/node_modules.bundled/graceful-fs/polyfills.js:267:18
+24 verbose stack     at FSReqCallback.oncomplete (node:fs:199:5)
+25 verbose cwd /home/ec2-user/environment
+26 error Linux 4.14.248-189.473.amzn2.x86_64
+27 error argv "/home/ec2-user/.nvm/versions/node/v16.11.1/bin/node" "/usr/bin/npm" "install" "-g" "aws-cdk"
+28 error node v16.11.1
+29 error npm  v3.10.10
+30 error cb.apply is not a function
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ 1, true ]
